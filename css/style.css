@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+body{
+    background-color:rgb(255, 255, 255);
+    color: black;
+    width: auto;
+}
+
+div#interface {
+    background-color: rgb(180, 180, 180);
+    margin: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+p { 
+text-align: justify ;
+    text-indent: 30px;
+    font-size: 15pt;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    color:rgb(0, 0, 0);
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+header#cabecalho {
+    height: 800px;
+    background: url()
+} 
+
+
+/* Formatação de imagens com legendas */
+figure.foto-legenda img{
+    width: 38%;
+    height: 100%;
+    border: 1px solid black;
+}
+li{
+    font-size: 15pt;
+}
+/* Formatação do Menu */
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+}
+
+nav#menu li {
+    background-color:rgb(153, 153, 153);
+    padding: 10px;
+    margin: 10px;
+    transition: background-color 2s;
+    color: black;
+    position:relative;
+}
+
+nav#menu li:hover {
+    background-color: rgb(99, 99, 99);
+    color: white;
+}
+
+nav#menu a {
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+section#corpo {
+    display: block;
+    height: 100%;
+    width: 900px;
+    float: left;
+    border-right: 1px solid black;
+    padding-right: 70px;
+}
+
+table#bunda {
+    border: 1px solid grey;
+    border-spacing: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+table#bunda td {
+    border: 1px solid grey;
+    padding: 30px;
+    vertical-align:middle;
+}
+
+table#bunda td.ce {
+    color: rgb(255, 255, 255);
+    background-color: grey;
+}
+
+table#bunda td.cd {
+    color: white;
+    background-color: rgb(170, 170, 170);
+}
+
+table#bunda caption {
+    color: black;
+    font-size: 13pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.lateral {
+    display: block;
+    width: 700px;
+    height: 100%;
+    float: left;
+    padding-left: 7em;
+}
+
+.table-lef {
+    float:left;
+}
+
+.baixo img{
+    margin-top: 3em;
+}
+
+center{
+    font-family: Arial;
+    font-size: 18px;
+}
+
+footer{
+    border-top: 2px solid rgb(170, 170, 170);
+    text-align:center;
+}

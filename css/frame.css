@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+section#baixo{
+    width: 1000px;
+    margin: auto;
+}
+
+iframe#framet{
+    width: 500px;
+    height: 280px;
+    border: none;
+    overflow: hidden;
+}
+
+iframe#framet::-webkit-scrollbar {
+    display: none;
+}
+
+audio#musica{
+    display: block;
+    position: relative;
+    left:800px;
+    top: 150px;
+    width: 300px;
+}
+
+video#filme{
+    display: block;
+    position: relative;
+    left: 100px;
+    top: 0px;
+    height: 700px;
+    width: 700px;
+}
+
+iframe#frama{
+    display: block;
+    position: relative;
+    left: 1050px ;
+    bottom: 300px;
+}
