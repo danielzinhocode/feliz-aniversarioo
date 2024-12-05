@@ -42,14 +42,6 @@ img{
     margin: 20px;
 }
 
-audio#musica{
-    display: block;
-    position: relative;
-    left:800px;
-    top: 20px;
-    width: 300px;
-}
-
 h2{
     font-family: Arial;
     color: grey;
