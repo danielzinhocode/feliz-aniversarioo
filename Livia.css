@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+body{
+    background-color:  rgb(170, 204, 255);
+}
+
+header{
+    background-color: rgb(170, 204, 255);
+    padding: 30px;
+    text-align: center;
+}
+
+h1{
+    font-family: Arial;
+    color: white;
+    text-decoration-line: underline;
+    font-size: 40px;
+}
+
+h2#felizin{
+    font-family: Arial;
+    color: rgb(251, 140, 255);
+    font-size: 20px;
+}
+
+p{
+    font-family: Arial;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+} 
+
+
+div#text {
+    background-color: rgb(255, 255, 255);
+    padding: 30px 30px;
+    margin: -8px;
+    text-align: center;
+}
+
+img{
+    border-radius: 10px;
+    margin: 20px;
+}
+
+audio#musica{
+    display: block;
+    position: relative;
+    left:800px;
+    top: 20px;
+    width: 300px;
+}
+
+h2{
+    font-family: Arial;
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+}
